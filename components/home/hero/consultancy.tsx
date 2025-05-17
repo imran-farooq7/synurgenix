@@ -14,6 +14,7 @@ const monstSans = Montserrat({
 const poppins = Poppins({
   variable: "--font-poppins-sans",
   weight: ["600"],
+  subsets: ["latin"],
 });
 
 const Consultancy = () => {
