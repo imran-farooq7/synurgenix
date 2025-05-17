@@ -1,5 +1,6 @@
 import Navbar from "@/components/nav/nav";
 import React from "react";
+import HeroTitle from "./hero-title";
 
 const Hero = () => {
   return (
@@ -8,6 +9,7 @@ const Hero = () => {
       style={{ backgroundImage: 'url("/hero.svg")' }}
     >
       <Navbar />
+      <HeroTitle />
     </section>
   );
 };

@@ -11,11 +11,11 @@ const Navbar = () => {
   const pathName = usePathname();
   return (
     <nav
-      className={`mx-auto max-w-7xl flex items-center justify-between ${interSans.className}  `}
+      className={`mx-auto px-5 xl:px-0 max-w-7xl flex items-center justify-between ${interSans.className}  `}
     >
-      {/* <img src={"logo.svg"} alt="logo" width={200} height={200} /> */}
+      {/* <img src={"Synurgenix.svg"} alt="logo" /> */}
       <h1 className="text-3xl font-bold text-white">Logo</h1>
-      <div className="flex gap-10 text-white text-lg font-medium items-center">
+      <div className="lg:flex hidden gap-10 text-white text-lg font-medium items-center">
         <Link
           href={"/"}
           className={`${
