@@ -9,6 +9,7 @@ const antonSans = Anton({
 const monstSans = Montserrat({
   variable: "--font-mont-sans",
   weight: ["400", "600", "500"],
+  subsets: ["latin"],
 });
 const poppins = Poppins({
   variable: "--font-poppins-sans",
