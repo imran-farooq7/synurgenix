@@ -11,7 +11,7 @@ const antonSans = Anton({
 const interSans = Inter({
   variable: "--font-inter-sans",
   subsets: ["latin"],
-  weight: ["600"],
+  weight: ["600", "400"],
 });
 
 const About = () => {
@@ -25,7 +25,10 @@ const About = () => {
           >
             About Synurgenix
           </h2>
-          <p className="text-base md:text-xl">
+
+          <p
+            className={`text-base md:text-xl ${interSans.variable} font-normal`}
+          >
             At Synurgenix, we specialize in providing comprehensive IT solutions
             tailored to your business needs. Whether you require IT
             infrastructure management, on-demand IT support, or full-time IT
