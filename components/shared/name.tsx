@@ -7,7 +7,20 @@ const interSans = Inter({
   weight: ["600"],
 });
 
-const Name = ({ name, src }: NameProps) => {
+const Name = ({ name, src, isWhiteVariant }: NameProps) => {
+  if (isWhiteVariant) {
+    return (
+      <span
+        className={`border-2 border-[#FFFFFF]/10 px-3 py-2 flex gap-2 items-center w-fit rounded-sm md:text-base text-sm ${interSans.variable} font-semibold text-white`}
+      >
+        {" "}
+        <span>
+          <Image alt="about us" src={src} width={20} height={20} />
+        </span>
+        {name}
+      </span>
+    );
+  }
   return (
     <span
       className={`border-2 border-[#FF8157] px-3 py-2 flex gap-2 items-center w-fit rounded-sm md:text-base text-sm ${interSans.variable} font-semibold text-[#1A5FC7]`}

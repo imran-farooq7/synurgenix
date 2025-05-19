@@ -1,6 +1,7 @@
 import Name from "@/components/shared/name";
-import { Anton, Inter } from "next/font/google";
+import { Anton, Inter, Poppins } from "next/font/google";
 import CardList from "./cardsList";
+import Link from "next/link";
 const antonSans = Anton({
   variable: "--font-anton-sans",
   subsets: ["latin"],
@@ -10,6 +11,11 @@ const interSans = Inter({
   variable: "--font-inter-sans",
   subsets: ["latin"],
   weight: ["400"],
+});
+const poppins = Poppins({
+  variable: "--font-poppins-sans",
+  weight: ["600"],
+  subsets: ["latin"],
 });
 
 const WhyUs = () => {
@@ -30,6 +36,14 @@ const WhyUs = () => {
         </p>
       </div>
       <CardList />
+      <div className="flex items-center justify-center mt-10">
+        <Link
+          href={"/"}
+          className={`bg-[#86B93E]  text-center text-white  text-xs md:text-base text-nowrap px-5 py-4 rounded-xl ${poppins.variable} font-semibold`}
+        >
+          Schedule a Free Consultation
+        </Link>
+      </div>
     </section>
   );
 };
