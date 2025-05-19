@@ -42,6 +42,7 @@ export const whyUs = [
     desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
   },
 ];
+
 export const services = [
   {
     title: "Infrastructure Services",
@@ -70,5 +71,25 @@ export const services = [
     number: 4,
     href: "infrastructure-services",
     icon: "ad.svg",
+  },
+];
+export const news = [
+  {
+    title: "How to Boost Your SEO in 2024",
+    desc: "Discover cutting-edge SEO techniques and tactics to boost your website's visibility.",
+    date: "July 10, 2024",
+    icon: "n1.svg",
+  },
+  {
+    title: "What are the Trends of 2025?",
+    icon: "n2.svg",
+    desc: "Discover cutting-edge SEO techniques and tactics to boost your website's visibility.",
+    date: "July 10, 2024",
+  },
+  {
+    title: "What is Content Writing?",
+    icon: "n3.svg",
+    date: "July 10, 2024",
+    desc: "Discover cutting-edge SEO techniques and tactics to boost your website's visibility.",
   },
 ];

@@ -18,3 +18,9 @@ export type ServiceCardProps = {
   href: string;
   description: string;
 };
+export type NewsCardProps = {
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+};
