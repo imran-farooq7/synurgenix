@@ -2,6 +2,7 @@ export type NameProps = {
   name: string;
   src: string;
   isWhiteVariant?: boolean;
+  isPromotion?: boolean;
 };
 export type StatProps = {
   title: string;
