@@ -92,6 +92,7 @@ const Consultancy = () => {
           alt="stats"
           width={346}
           height={282}
+          priority
         />
         <Image
           src={"stats mobile.svg"}
@@ -99,6 +100,7 @@ const Consultancy = () => {
           alt="stats"
           width={206}
           height={165}
+          priority
         />
       </div>
     </div>
