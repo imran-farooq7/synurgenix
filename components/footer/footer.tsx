@@ -6,6 +6,7 @@ import IG from "@/public/Instagram.svg";
 import TWITTER from "@/public/Twitter.svg";
 import LI from "@/public/Linkedin.svg";
 import NEW from "@/public/north_east_white.svg";
+import EMAIL from "@/public/Mail.svg";
 
 const interSans = Inter({
   variable: "--font-inter-sans",
@@ -14,9 +15,9 @@ const interSans = Inter({
 });
 const Footer = () => {
   return (
-    <footer className="grid grid-cols-1 md:grid-cols-5 mx-auto max-w-7xl px-6 md:px-0 py-12 md:py-24">
+    <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mx-auto max-w-7xl px-6 lg:px-0 py-12 md:py-24">
       <div
-        className={`${interSans.variable} font-light text-[#6D6D6D] col-span-2`}
+        className={`${interSans.variable} font-light text-[#6D6D6D] col-span-2 md:col-span-1 lg:col-span-2`}
       >
         <h1 className="text-5xl">Logo</h1>
         <div className="space-y-2 text-lg">
@@ -41,7 +42,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="pt-7 pb-4 md:py-0">
         <ul className={`${interSans.variable} font-light text-[#6D6D6D]`}>
           <li className="text-black text-2xl font-semibold mb-6">Company</li>
           <li className="text-[#6D6D6D] text-lg font-light mb-4">
@@ -58,7 +59,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div>
+      <div className="pt-7 pb-4 md:py-0">
         <ul className={`  text-[#6D6D6D] `}>
           <li className="text-black text-2xl font-semibold mb-6">Services</li>
           <li
@@ -85,7 +86,7 @@ const Footer = () => {
       </div>
       <div className="col-span-2 md:col-span-1">
         <p
-          className={`text-black text-lg ${interSans.variable} font-semibold mb-6`}
+          className={`text-black text-lg ${interSans.variable} font-semibold mb-2 md:mb-6`}
         >
           Stay Updated with Our Insights
         </p>
@@ -93,13 +94,14 @@ const Footer = () => {
           Join AdVibe's newsletter for trends, tips, and exclusive offers!
         </p>
         <div className="relative w-full max-w-md">
+          <Image src={EMAIL} alt="email" className="absolute left-4 top-4" />
           <input
             type="email"
             placeholder="enter your email"
-            className="w-full py-3 pl-4 border border-[#e7e7e7] rounded-[10px] focus:outline-none focus:ring-2 focus:ring-green-500"
+            className=" w-full xl:w-72  py-3 pl-10 border border-[#e7e7e7] rounded-[10px] focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <button
-            className={`absolute flex max-w-24 items-center gap-1.5 right-2 top-2 h-9 rounded-[10px] px-[18px] bg-[#86b93e] text-white text-base font-semibold ${interSans.variable} hover:bg-[#7aab38] transition-colors`}
+            className={`absolute flex md:hidden xl:flex max-w-24 items-center gap-1.5 right-6 md:-right-4 top-2 h-9 rounded-[10px] px-[18px] bg-[#86b93e] text-white text-base font-semibold ${interSans.variable} hover:bg-[#7aab38] transition-colors`}
           >
             Send
             <Image src={NEW} alt="send" />
