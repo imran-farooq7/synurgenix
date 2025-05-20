@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter } from "next/font/google";
 import { usePathname } from "next/navigation";
-import MobileNavbar from "./nav-mobie";
+import MobileNavbar from "./nav-mobile";
 import { useState } from "react";
 import HB from "@/public/hamburger menu.svg";
 
