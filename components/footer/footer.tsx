@@ -114,7 +114,7 @@ const Footer = () => {
         style={{ borderColor: "#E7E7E7" }}
         className="max-w-full md:max-w-7xl mx-auto"
       />
-      <div className="flex gap-y-2.5 flex-col md:flex-row justify-between mx-auto max-w-7xl py-8">
+      <div className="flex gap-y-2.5 flex-col md:flex-row items-center justify-between mx-auto max-w-7xl py-8">
         <p
           className={`text-[#6D6D6D] text-lg font-light ${interSans.variable}`}
         >
