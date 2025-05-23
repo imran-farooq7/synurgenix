@@ -93,3 +93,57 @@ export const news = [
     desc: "Discover cutting-edge SEO techniques and tactics to boost your website's visibility.",
   },
 ];
+export const whyUsAboutCard = [
+  {
+    title: "Global IT Support",
+    desc: "Available 24/7 with a worldwide network of IT experts",
+    icon: "global.svg",
+  },
+  {
+    title: "End-to-End IT Solutions",
+    icon: "e2e.svg",
+    desc: "From helpdesk support to full-scale IT deployments",
+  },
+  {
+    title: "Cost-Effective Service",
+    icon: "cost.svg",
+    desc: "Tailored IT staffing, infrastructure management & lifecycle solutions",
+  },
+  {
+    title: "Top Trusted Company",
+    icon: "top.svg",
+    desc: " Proven track record of delivering top-tier IT solutions",
+  },
+  {
+    title: "Seamless IT Integrations",
+    icon: "seamless.svg",
+    desc: "Expertise in integrating cloud, on-premise, and hybrid IT environments",
+  },
+  {
+    title: "Industry-Specific Solutions",
+    icon: "industry.svg",
+    desc: "Customized IT services for finance, healthcare, retail, logistics, and more",
+  },
+];
+export const ourTeam = [
+  {
+    name: "Robert Malbour",
+    image: "t1.svg",
+    position: "Our CEO",
+  },
+  {
+    name: "Sleena Robert",
+    image: "t2.svg",
+    position: "Co Founder",
+  },
+  {
+    name: "Hoverk Tenry",
+    image: "t3.svg",
+    position: "Flutter Developer",
+  },
+  {
+    name: "Olivia Willis",
+    image: "t4.svg",
+    position: "Social Media Manager",
+  },
+];

@@ -1,6 +1,6 @@
 import ContactUs from "@/components/contact-us/contact-form/contact-us";
 import HeroContact from "@/components/contact-us/hero-contact/hero-contact";
-import Promote from "@/components/contact-us/promote/promte";
+import Grow from "@/components/shared/grow";
 import React from "react";
 
 const ContactUsPage = () => {
@@ -8,7 +8,7 @@ const ContactUsPage = () => {
     <div>
       <HeroContact />
       <ContactUs />
-      <Promote />
+      <Grow image="promote.svg" />
     </div>
   );
 };

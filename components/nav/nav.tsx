@@ -31,7 +31,16 @@ const Navbar = () => {
           >
             Home
           </Link>
-          <Link href={"/about"}>About</Link>
+          <Link
+            href={"/about"}
+            className={`${
+              pathName === "/about"
+                ? "bg-[#0A3C87] px-6 py-2 rounded-2xl"
+                : null
+            }`}
+          >
+            About
+          </Link>
           <Link href={"/services"}>Services</Link>
           <Link href={"/blog"}>Blog</Link>
           <Link href={"/coverage"}>Our Covertage</Link>

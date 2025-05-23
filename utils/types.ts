@@ -25,3 +25,19 @@ export type NewsCardProps = {
   date: string;
   image: string;
 };
+export type WhoCardProps = {
+  title: string;
+  description: string;
+  icon: string;
+  isOrange?: boolean;
+};
+export type WhyUsCardProps = {
+  icon: string;
+  title: string;
+  description: string;
+};
+export type TeamCardProps = {
+  name: string;
+  image: string;
+  position: string;
+};
