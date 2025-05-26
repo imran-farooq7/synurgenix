@@ -17,7 +17,7 @@ const interSans = Inter({
 const Grow = ({ image }: { image: string }) => {
   return (
     <section
-      className="py-12 md:py-24 bg-no-repeat bg-cover bg-center md:min-h-[700px] px-6 md:px-0"
+      className={`py-12 md:py-24 bg-no-repeat bg-cover bg-center md:min-h-[700px] px-6 md:px-0`}
       style={{ backgroundImage: `url(/${image})` }}
     >
       <div className="flex items-center flex-col text-center mb-4">

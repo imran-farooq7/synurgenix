@@ -41,3 +41,14 @@ export type TeamCardProps = {
   image: string;
   position: string;
 };
+export type ProcessCardProps = {
+  title: string;
+  description: string;
+  icon: string;
+  isLast?: boolean;
+};
+export type SolutionCardProps = {
+  title: string;
+  description: string;
+  icon: string;
+};

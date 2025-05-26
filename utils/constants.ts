@@ -147,3 +147,35 @@ export const ourTeam = [
     position: "Social Media Manager",
   },
 ];
+export const servicesCard = [
+  {
+    title: "Network Implementation",
+    desc: "We build high-performance, secure, and scalable networks to keep your business connected.",
+    icon: "ni.svg",
+  },
+  {
+    title: "Server Implementation",
+    icon: "si.svg",
+    desc: "Reliable and optimized server infrastructure for better performance & security",
+  },
+  {
+    title: "Cloud Infrastructure",
+    icon: "ci.svg",
+    desc: "Move to the cloud seamlessly with our secure migration services.",
+  },
+  {
+    title: "IT Security & Compliance",
+    icon: "isc.svg",
+    desc: "Protect your IT ecosystem with enterprise-grade security solutions.",
+  },
+  {
+    title: "IT Support",
+    icon: "is.svg",
+    desc: "Maximize efficiency with 24/7 IT support & proactive monitoring.",
+  },
+  {
+    title: "Data Center Management",
+    icon: "dcm.svg",
+    desc: "Ensure high availability & security with optimized data center solutions.",
+  },
+];
