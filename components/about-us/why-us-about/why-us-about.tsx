@@ -40,7 +40,7 @@ const WhyUsAbout = () => {
           tailored to your business needs.
         </p>
       </div>
-      <div className="flex flex-wrap items-center justify-center">
+      <div className="flex flex-wrap gap-8 gap-y-8 items-center justify-center">
         {whyUsAboutCard.map((item) => (
           <WhyUsCard
             key={item.title}
