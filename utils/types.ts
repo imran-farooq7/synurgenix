@@ -52,3 +52,8 @@ export type SolutionCardProps = {
   description: string;
   icon: string;
 };
+export type RegionProps = {
+  title: string;
+  img: string;
+  imgMobile: string;
+};
