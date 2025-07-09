@@ -21,19 +21,19 @@ const About = () => {
         <div className="flex flex-col">
           <Name name="About Us" src="ste.svg" />
           <h2
-            className={`text-[27px] md:text-7xl mt-6 mb-8 uppercase text-[#1A5FC7] ${antonSans.variable}`}
+            className={`text-[27px] md:text-[60px] font-bold mt-3 md:mt-6 mb-2 md:mb-8 uppercase text-[#1A5FC7] ${antonSans.variable}`}
           >
             About Synurgenix
           </h2>
 
           <p
-            className={`text-base md:text-xl ${interSans.variable} font-normal`}
+            className={`text-base md:text-xl text-[#6D6D6D] ${interSans.variable} font-normal max-w-7xl`}
           >
-            At Synurgenix, we specialize in providing comprehensive IT solutions
-            tailored to your business needs. Whether you require IT
-            infrastructure management, on-demand IT support, or full-time IT
-            staffing, our global team of experts ensures your business remains
-            operational and secure.
+            At Synurgenix, we build robust, agile IT foundations to drive global
+            business success. As a leading Managed Service Provider (MSP), we
+            deliver tailored, cutting-edge solutions backed by 3,300+ expert
+            engineers and 24/7 support—ensuring your operations stay secure,
+            efficient, and always on.
           </p>
         </div>
         <Image

@@ -17,8 +17,10 @@ const ServiceCard = ({
   href,
 }: ServiceCardProps) => {
   return (
-    <div className="bg-white/20 w-full md:w-1/3 lg:w-1/4 pb-8 rounded-2xl px-6">
-      <p className="text-right text-8xl md:text-9xl text-white/45">{number}</p>
+    <div className="bg-white/20 group hover:bg-[#FF8157] w-full md:w-1/3 lg:w-1/4 pb-8 rounded-2xl px-6 transition-all ease-in-out">
+      <p className="text-right text-8xl md:text-9xl transition-all ease-in-out text-white/45 group-hover:text-white">
+        {number}
+      </p>
       <div className="flex flex-col gap-4  mb-4">
         <Image src={icon} alt="check" width={80} height={80} />
         <p className={`text-xl  ${interSans.variable} font-bold text-white`}>
@@ -26,7 +28,7 @@ const ServiceCard = ({
         </p>
       </div>
       <div>
-        <p className="text-lg text-[#E5E7EB]">{description}</p>
+        <p className="text-base text-[#E5E7EB]">{description}</p>
       </div>
       <Link
         className={`bg-white hover:scale-105 transition-all ease-in-out text-[#0A3C87] text-nowrap gap-1 items-center font-medium w-40 mt-4 px-5 py-3 rounded-xl flex ${interSans.variable}`}

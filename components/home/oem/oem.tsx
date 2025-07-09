@@ -15,7 +15,7 @@ const interSans = Inter({
 const OEM = () => {
   return (
     <section className="mx-auto max-w-7xl py-12 md:py-24 px-5">
-      <div className="flex items-center flex-col text-center mb-8">
+      <div className="flex items-center flex-col text-center mb-2 md:mb-8">
         <Name name="OEM Tech IT Support" src="ste.svg" />
         <h2
           className={`text-[27px] font-bold md:text-7xl mt-6 mb-2 uppercase text-[#1A5FC7] ${antonSans.variable}`}

@@ -28,15 +28,17 @@ const Grow = ({ image }: { image: string }) => {
           isPromotion
         />
         <h2
-          className={`text-[27px] max-w-5xl leading-10 md:leading-22 font-bold md:text-7xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
+          className={`text-[27px] max-w-[800px] leading-10 md:leading-22 font-bold md:text-6xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
         >
-          Smart IT Solutions for Future-Ready Businesses
+          Get a Free Consultation or Request a Demo
         </h2>
         <p
-          className={`text-base md:text-xl text-white text-center max-w-xs md:max-w-2xl ${interSans.variable} font-semibold leading-6 md:leading-8`}
+          className={`text-base md:text-xl text-white text-center max-w-sm md:max-w-3xl ${interSans.variable} font-semibold leading-6 md:leading-8`}
         >
-          From cloud infrastructure to on-demand IT support, we help you grow.
-          24/7 helpdesk, infrastructure management, and expert staffing.
+          Discover how Synurgenix can transform your IT landscape and drive your
+          business forward. Contact us today for a free consultation or request
+          a demo—let our experts design a tailored IT strategy that empowers
+          your digital future.
         </p>
       </div>
       <div className="flex justify-center">

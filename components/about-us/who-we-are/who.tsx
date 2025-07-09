@@ -29,24 +29,25 @@ const Who = () => {
             </h2>
           </div>
           <p
-            className={`text-base md:text-xl text-[#6d6d6d] ${interSans.variable} font-normal max-w-[600px]`}
+            className={`text-base md:text-xl text-[#6d6d6d] ${interSans.variable} font-normal max-w-[650px]`}
           >
-            Synugenix is a global IT service provider offering comprehensive
-            technology solutions for businesses of all sizes. With a vast
-            network of 2,000+ certified engineers across 200+ companies.
+            With a strategic blend of innovation, expertise, and unwavering
+            dedication, we serve as the trusted IT backbone for organizations of
+            all sizes, ensuring their operations run smoothly, securely, and
+            efficiently.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-6 ">
           <WhoCard
-            title="Our Mission"
+            title="Our Foundation"
             icon={VISION}
-            description="To help businesses thrive by providing reliable, scalable, and cost-effective IT solutions, ensuring seamless operations and continuous innovation."
+            description="We proudly boast a global network of over 3,300 highly skilled and certified engineers, ensuring local expertise and cultural understanding for international clients."
           />
           <WhoCard
-            title="Our Vision"
+            title="Our Commitment"
             isOrange
             icon={ROCKET}
-            description="To be the world’s most trusted IT service provider, delivering secure and future-ready solutions tailored to industry needs. Ensuring data protection & compliance."
+            description="We understand that IT challenges can arise at any time, which is why Synurgenix offers robust, multilingual 24/7 support tailored to international business needs."
           />
         </div>
       </div>

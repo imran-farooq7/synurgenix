@@ -27,7 +27,7 @@ const News = () => {
           News & InSights
         </h2>
         <p
-          className={`text-base md:text-xl text-white/70 text-center max-w-xs md:max-w-xl ${interSans.variable}`}
+          className={`text-base md:text-xl text-white text-center max-w-xs md:max-w-xl ${interSans.variable}`}
         >
           At Synurgenix, we specialize in providing comprehensive IT solutions
           tailored to your business needs.

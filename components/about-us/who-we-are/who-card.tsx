@@ -17,7 +17,7 @@ const WhoCard = ({ isOrange, title, icon, description }: WhoCardProps) => {
     <div
       className={`${
         isOrange ? "bg-[#FF8157]" : "bg-[#86B93E]"
-      } px-8 pt-9 md:pt-15 pb-12 max-w-[610px] rounded-3xl space-y-4`}
+      } px-8 pt-9 md:pt-15 pb-12 max-w-xl md:w-xl rounded-3xl space-y-4`}
     >
       <div className="flex justify-between">
         <h2
@@ -28,7 +28,7 @@ const WhoCard = ({ isOrange, title, icon, description }: WhoCardProps) => {
         <Image src={icon} alt={title} />
       </div>
       <p
-        className={`${interSans.variable} text-xl max-w-lg font-normal text-white
+        className={`${interSans.variable} text-sm md:text-xl max-w-[400px] font-normal text-white
       `}
       >
         {description}

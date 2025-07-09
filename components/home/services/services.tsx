@@ -23,13 +23,13 @@ const Services = () => {
         <h2
           className={`text-[27px] font-bold md:text-7xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
         >
-          Our Services
+          Our Core Services
         </h2>
         <p
           className={`text-base md:text-xl text-white/70 text-center max-w-xs md:max-w-xl ${interSans.variable}`}
         >
-          At Synurgenix, we specialize in providing comprehensive IT solutions
-          tailored to your business needs.
+          Synurgenix offers a comprehensive portfolio of managed IT services
+          designed to meet the diverse needs of modern international businesses.
         </p>
       </div>
       <ServicesList />

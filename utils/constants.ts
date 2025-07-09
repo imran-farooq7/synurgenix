@@ -18,56 +18,48 @@ export const stats = [
 ];
 export const whyUs = [
   {
-    title: "Expert Team",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+    title: "Global Expertise, Local Impact",
+    desc: "Our expansive network of certified IT professionals delivers world-class solutions with a deep understanding of local market nuances. Wherever your business operates, Synurgenix provides consistent, high-quality support and strategic guidance.",
   },
   {
-    title: "Global Coverage",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+    title: "Uninterrupted 24/7 Support",
+    desc: "Your business never sleeps, and neither do we. Our dedicated support teams are available 24/7 to address any IT challenges, minimize downtime, and ensure continuous operational efficiency.",
   },
   {
-    title: "24/7 Support",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+    title: "Strategic IT Partnership",
+    desc: "We offer a holistic suite of solutions designed to optimize every aspect of your IT environment, from foundational infrastructure and strategic resource allocation to advanced application development and secure asset management.",
   },
   {
-    title: "Secure Solutions",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-  },
-  {
-    title: "Cost-Effective System",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
-  },
-  {
-    title: "Problem Solvers",
-    desc: "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+    title: "Certified Professionalism",
+    desc: "Our team of industry-certified professionals brings extensive experience across diverse sectors, ensuring expert guidance and innovative solutions backed by a proven track record.",
   },
 ];
 
 export const services = [
   {
     title: "Infrastructure Services",
-    desc: "Network setup, server management, IT infrastructure design",
+    desc: "Building and maintaining the robust IT backbone your business needs, including network management, server and storage solutions, and cloud infrastructure",
     number: 1,
     href: "infrastructure-services",
     icon: "hd.svg",
   },
   {
-    title: "Helpdesk Solutions",
-    desc: "24/7 IT support, remote and onsite assistance, ticketing solutions",
+    title: "Resources on SLA",
+    desc: "Providing guaranteed access to expert IT professionals with clearly defined Service Level Agreements (SLAs) for on-demand support and help desk services.",
     number: 2,
     href: "infrastructure-services",
     icon: "hd.svg",
   },
   {
     title: "Full-Time Resource Allocation",
-    desc: "Dedicated IT staff, contract-based hiring, specialized skill allocation",
+    desc: "Augmenting your in-house teams with dedicated, full-time IT engineers and specialists for sustained project success and operational continuity.",
     number: 3,
     href: "infrastructure-services",
     icon: "ftra.svg",
   },
   {
     title: "Asset Disposal and Destruction",
-    desc: "Secure data erasure, environmentally responsible disposal, hardware recycling",
+    desc: "Ensuring secure, compliant, and environmentally responsible end-of-life management for your IT assets, including certified data destruction and equipment recycling.",
     number: 4,
     href: "infrastructure-services",
     icon: "ad.svg",
