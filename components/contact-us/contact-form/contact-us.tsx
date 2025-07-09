@@ -21,7 +21,7 @@ const interSans = Inter({
 const ContactUs = () => {
   return (
     <section className="mx-auto max-w-7xl py-12 md:py-24">
-      <div className="flex lg:flex-row flex-col justify-between gap-20 px-5 xl:px-0">
+      <div className="flex lg:flex-row flex-col justify-between gap-6 md:gap-20 px-5 xl:px-0">
         <div className="flex flex-col basis-1/2">
           <Name name="Contact Us" src="comment.svg" />
           <h2
@@ -31,12 +31,10 @@ const ContactUs = () => {
           </h2>
 
           <p
-            className={`text-base md:text-xl ${interSans.variable} font-normal text-[#6d6d6d] leading-7`}
+            className={`text-base md:text-xl ${interSans.variable} font-normal text-[#6d6d6d] leading-7 max-w-lg`}
           >
-            Our dedicated team is ready to provide the answers and support you
-            need. Whether it's a quick question or a detailed concern, we're
-            just a call, email, or chat away. Let us make your experience
-            seamless and stress-free. We're here to help!
+            Contact us today to discover how our international IT expertise can
+            benefit your organization and drive your digital transformation.
           </p>
           <div className="flex flex-col mt-10 gap-8">
             <div
