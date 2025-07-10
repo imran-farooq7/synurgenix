@@ -141,33 +141,28 @@ export const ourTeam = [
 ];
 export const servicesCard = [
   {
-    title: "Network Implementation",
-    desc: "We build high-performance, secure, and scalable networks to keep your business connected.",
+    title: "Global Reach, Local Expertise",
+    desc: "Our worldwide network of over 3,300 engineers ensures expert support and tailored solutions.",
     icon: "ni.svg",
   },
   {
-    title: "Server Implementation",
+    title: "24/7 Proactive Support",
     icon: "si.svg",
-    desc: "Reliable and optimized server infrastructure for better performance & security",
+    desc: "We monitor your systems around the clock, identifying and resolving potential issues",
   },
   {
-    title: "Cloud Infrastructure",
+    title: "Strategic Partnership",
     icon: "ci.svg",
-    desc: "Move to the cloud seamlessly with our secure migration services.",
+    desc: "We work as an extension of your team, providing strategic guidance and proactive solutions",
   },
   {
-    title: "IT Security & Compliance",
+    title: "Cost-Effective Solutions",
     icon: "isc.svg",
-    desc: "Protect your IT ecosystem with enterprise-grade security solutions.",
+    desc: "Our managed services model helps you optimize IT spending, reduce operational overheads",
   },
   {
-    title: "IT Support",
+    title: "Security and Compliance",
     icon: "is.svg",
-    desc: "Maximize efficiency with 24/7 IT support & proactive monitoring.",
-  },
-  {
-    title: "Data Center Management",
-    icon: "dcm.svg",
-    desc: "Ensure high availability & security with optimized data center solutions.",
+    desc: "We prioritize the security of your data and systems, implementing international best practices",
   },
 ];

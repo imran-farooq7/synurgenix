@@ -57,3 +57,17 @@ export type RegionProps = {
   img: string;
   imgMobile: string;
 };
+export type ServiceDetailsProps = {
+  name: string;
+  title: string;
+  description: string;
+};
+export type KeyOfferingProps = {
+  description: string;
+  title1: string;
+  title2: string;
+  title3: string;
+  text1: string;
+  text2: string;
+  text3: string;
+};

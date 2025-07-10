@@ -22,11 +22,11 @@ const Solutions = () => {
   return (
     <section className="mx-auto max-w-7xl py-12 md:py-24 px-5">
       <div className="flex items-center flex-col text-center md:mb-15 mb-7">
-        <Name name=" IT Infrastructure Solutions" src="ste.svg" />
+        <Name name="Why Choose Synurgenix?" src="ste.svg" />
         <h2
           className={`text-[27px] font-bold md:text-7xl mt-6 mb-2 uppercase text-[#1A5FC7] ${antonSans.variable}`}
         >
-          Our solutions
+          Why Choose Synurgenix?
         </h2>
         <p
           className={`text-base md:text-xl text-[#6D6D6D] text-center max-w-xs md:max-w-xl ${interSans.variable}`}
