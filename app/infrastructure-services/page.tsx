@@ -4,7 +4,7 @@ import Solutions from "@/components/services/shared/solutions/solutions";
 import Grow from "@/components/shared/grow";
 import ServiceDetails from "@/components/services/shared/service-details";
 
-const ServicesPage = () => {
+const InfrastructureServicePage = () => {
   return (
     <div>
       <InfrastructureHero />
@@ -28,4 +28,4 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;
+export default InfrastructureServicePage;

@@ -10,8 +10,7 @@ const interSans = Inter({
 
 const SolutionCard = ({ title, description, icon }: SolutionCardProps) => {
   return (
-    <Link
-      href={`/services/${title}`}
+    <div
       className={`bg-white ${interSans.variable} grow items-center flex flex-col border max-w-sm rounded-[20px] border-black/10 py-11 `}
     >
       <Image src={icon} alt={title} width={110} height={110} />
@@ -21,7 +20,7 @@ const SolutionCard = ({ title, description, icon }: SolutionCardProps) => {
       <p className="text-base text-[#161C2D] text-center max-w-2xs mt-2">
         {description}
       </p>
-    </Link>
+    </div>
   );
 };
 

@@ -47,14 +47,14 @@ export const services = [
     title: "Resources on SLA",
     desc: "Providing guaranteed access to expert IT professionals with clearly defined Service Level Agreements (SLAs) for on-demand support and help desk services.",
     number: 2,
-    href: "infrastructure-services",
+    href: "resources-on-sla",
     icon: "hd.svg",
   },
   {
     title: "Full-Time Resource Allocation",
     desc: "Augmenting your in-house teams with dedicated, full-time IT engineers and specialists for sustained project success and operational continuity.",
     number: 3,
-    href: "infrastructure-services",
+    href: "fulltime-resources-allocation",
     icon: "ftra.svg",
   },
   {
