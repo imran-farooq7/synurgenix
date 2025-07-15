@@ -61,8 +61,22 @@ export const services = [
     title: "Asset Disposal and Destruction",
     desc: "Ensuring secure, compliant, and environmentally responsible end-of-life management for your IT assets, including certified data destruction and equipment recycling.",
     number: 4,
-    href: "infrastructure-services",
+    href: "asset-disposal-destruction",
     icon: "ad.svg",
+  },
+  {
+    title: "App Development",
+    desc: "Ensuring secure, compliant, and environmentally responsible end-of-life management for your IT assets, including certified data destruction and equipment recycling.",
+    number: 5,
+    href: "application-development",
+    icon: "appdev.svg",
+  },
+  {
+    title: "Wireless Survey",
+    desc: "Ensuring secure, compliant, and environmentally responsible end-of-life management for your IT assets, including certified data destruction and equipment recycling.",
+    number: 6,
+    href: "wireless-survey",
+    icon: "wireless.svg",
   },
 ];
 export const news = [
