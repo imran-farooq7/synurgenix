@@ -6,24 +6,25 @@ import ServiceDetails from "@/components/services/shared/service-details";
 import ResourcesHero from "@/components/services/resources-services/resources-hero";
 import FulltimeResourcesHero from "@/components/services/fulltime-resources-services/fulltime-resources-hero";
 import AssetsHero from "@/components/services/assets-disposal-destruction/assets-hero";
+import ApplicationHero from "@/components/services/application-development/application-hero";
 
-const AssetDisposalPage = () => {
+const ApplicationDevelopmentPage = () => {
   return (
     <div>
-      <AssetsHero />
+      <ApplicationHero />
       <ServiceDetails
-        name="Committed IT Resources"
-        title="End-of-Life Asset Handling"
-        description="Securely retire your IT assets with confidence. Our certified disposal services ensure complete data destruction, compliance with regulations, and eco-friendly recycling—all with strict chain-of-custody controls."
+        name="Custom App Development"
+        title="Custom App Development"
+        description="Turn your ideas into powerful, tailor-made software solutions. From concept to launch—and beyond—we build web, mobile, and enterprise apps that boost performance and elevate user experience."
       />
       <KeyOfferings
         description="Strategic, scalable staffing solutions to strengthen your IT operations."
         title1="Certified Data Destruction"
-        title2="Eco-Friendly Recycling"
-        title3="Chain-of-Custody Tracking"
+        title2="Full Lifecycle Development"
+        title3="Enterprise-Grade Solutions"
         text1="Full-time engineers focused solely on your projects—aligned with your goals and timelines."
-        text2="Quickly add or reduce resources as your needs evolve, without long-term commitments."
-        text3="Eliminate hiring delays and costs—our vetted professionals integrate into your team from day one."
+        text2="From ideation and UX/UI design to development, testing, deployment, and updates."
+        text3="High-performance systems built to support complex operations and long-term growth."
       />
       <Solutions />
       <Grow image="solutions.svg" />
@@ -31,4 +32,4 @@ const AssetDisposalPage = () => {
   );
 };
 
-export default AssetDisposalPage;
+export default ApplicationDevelopmentPage;
