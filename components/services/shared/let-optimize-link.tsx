@@ -8,13 +8,13 @@ const interSans = Inter({
   subsets: ["latin"],
   weight: ["600", "400"],
 });
-const LetOptimizeLink = () => {
+const LetOptimizeLink = ({ href }: { href?: string }) => {
   return (
     <Link
       className={`bg-[#86B93E] hover:scale-105 transition-all ease-in-out text-white text-nowrap gap-1 mt-7 items-center font-bold max-w-fit px-5 py-3 rounded-xl flex  ${interSans.variable}`}
-      href={"/contact-us"}
+      href={href ?? "/contact-us"}
     >
-      Let’s Optimize Your IT
+      {href ? "Learn More" : "Let’s Optimize Your IT"}
       <Image src={NEW} alt="arrow" />
     </Link>
   );

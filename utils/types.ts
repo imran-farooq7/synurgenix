@@ -61,6 +61,10 @@ export type ServiceDetailsProps = {
   name: string;
   title: string;
   description: string;
+  img?: string;
+  withBG?: boolean;
+  href?: string;
+  isWhiteVariant?: boolean;
 };
 export type KeyOfferingProps = {
   description: string;

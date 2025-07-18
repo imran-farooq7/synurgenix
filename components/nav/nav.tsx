@@ -43,11 +43,11 @@ const Navbar = () => {
           </Link>
           <Link
             className={`${
-              pathName === "/infrastructure-services"
+              pathName === "/our-services"
                 ? "bg-[#0A3C87] px-6 py-2 rounded-2xl"
                 : null
             }`}
-            href={"/infrastructure-services"}
+            href={"/our-services"}
           >
             Services
           </Link>
