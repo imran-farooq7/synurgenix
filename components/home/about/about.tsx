@@ -3,6 +3,7 @@ import { Anton, Inter } from "next/font/google";
 import Team from "@/public/team.svg";
 import Image from "next/image";
 import Stats from "./stats";
+import Link from "next/link";
 const antonSans = Anton({
   variable: "--font-anton-sans",
   subsets: ["latin"],
@@ -19,12 +20,14 @@ const About = () => {
     <section className="mx-auto max-w-7xl py-12 md:py-24">
       <div className="flex lg:flex-row flex-col gap-5 xl:gap-12 px-5 xl:px-0">
         <div className="flex flex-col">
-          <Name name="About Us" src="ste.svg" />
-          <h2
-            className={`text-[27px] md:text-[60px] font-bold mt-3 md:mt-6 mb-2 md:mb-8 uppercase text-[#1A5FC7] ${antonSans.variable}`}
-          >
-            About Synurgenix
-          </h2>
+          <Link href="/about-us">
+            <Name name="About Us" src="ste.svg" />
+            <h2
+              className={`text-[27px] md:text-[60px] font-bold mt-3 md:mt-6 mb-2 md:mb-8 uppercase text-[#1A5FC7] ${antonSans.variable}`}
+            >
+              About Synurgenix
+            </h2>
+          </Link>
 
           <p
             className={`text-base md:text-xl text-[#6D6D6D] ${interSans.variable} font-normal max-w-7xl`}

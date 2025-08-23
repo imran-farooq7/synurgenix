@@ -51,7 +51,7 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link href={"/blog"}>Blog</Link>
+          {/* <Link href={"/blog"}>Blog</Link> */}
           <Link
             href={"/coverage"}
             className={`${

@@ -49,7 +49,7 @@ const Consultancy = () => {
           </p>
           <div className=" mt-3 md:pt-8 flex gap-4">
             <Link
-              href={"/"}
+              href={"/our-services"}
               className={`bg-[#86B93E] text-xs md:text-base text-nowrap px-5 py-4 rounded-xl ${poppins.variable} font-semibold`}
             >
               Explore Our Services

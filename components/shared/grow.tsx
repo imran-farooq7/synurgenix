@@ -21,12 +21,14 @@ const Grow = ({ image }: { image: string }) => {
       style={{ backgroundImage: `url(/${image})` }}
     >
       <div className="flex items-center flex-col text-center mb-4">
-        <Name
-          name="GROW YOUR BUSINESS TODAY  🚀"
-          isWhiteVariant
-          src="setw.svg"
-          isPromotion
-        />
+        <Link href="/contact-us">
+          <Name
+            name="GROW YOUR BUSINESS TODAY  🚀"
+            isWhiteVariant
+            src="setw.svg"
+            isPromotion
+          />
+        </Link>
         <h2
           className={`text-[27px] max-w-[800px] leading-10 md:leading-22 font-bold md:text-6xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
         >
@@ -44,7 +46,7 @@ const Grow = ({ image }: { image: string }) => {
       <div className="flex justify-center">
         <Link
           className={`bg-white hover:scale-105 transition-all ease-in-out text-[#0A3C87] text-nowrap gap-1 items-center font-bold max-w-fit mt-4 px-5 py-3 rounded-xl flex ${interSans.variable}`}
-          href={"/"}
+          href={"/contact-us"}
         >
           Let’s Optimize Your IT
           <Image src={NE} alt="arrow" />

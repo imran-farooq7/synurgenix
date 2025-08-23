@@ -66,7 +66,9 @@ const Footer = () => {
             <li
               className={`text-inherit text-lg font-light mb-4 ${interSans.variable}`}
             >
-              <Link href={"/about"}>IT Infrastructure Services</Link>
+              <Link href={"/infrastructure-services"}>
+                IT Infrastructure Services
+              </Link>
             </li>
             <li
               className={`text-inherit text-lg font-light mb-4 ${interSans.variable}`}

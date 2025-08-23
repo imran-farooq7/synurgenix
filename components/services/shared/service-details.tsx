@@ -4,6 +4,7 @@ import INFRA from "@/public/infrastructure.svg";
 import Image from "next/image";
 import { ServiceDetailsProps } from "@/utils/types";
 import LetOptimizeLink from "./let-optimize-link";
+import Link from "next/link";
 const antonSans = Anton({
   variable: "--font-anton-sans",
   subsets: ["latin"],
@@ -34,11 +35,13 @@ const ServiceDetails = ({
       <div className="mx-auto max-w-7xl py-8 md:py-24">
         <div className="flex lg:flex-row flex-wrap xl:flex-nowrap flex-col gap-8 xl:gap-14 px-5 xl:px-0">
           <div className={`flex flex-col ${withBG ? "order-2" : null}`}>
-            <Name
-              name={name}
-              src={withBG ? "setw.svg" : "ste.svg"}
-              isWhiteVariant={isWhiteVariant}
-            />
+            <Link href={href ?? ""}>
+              <Name
+                name={name}
+                src={withBG ? "setw.svg" : "ste.svg"}
+                isWhiteVariant={isWhiteVariant}
+              />
+            </Link>
             <h2
               className={`text-[27px] md:text-6xl md:mt-6 md:mb-4  uppercase ${
                 withBG ? "text-white" : "text-[#1A5FC7]"

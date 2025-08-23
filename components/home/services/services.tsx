@@ -1,6 +1,7 @@
 import Name from "@/components/shared/name";
 import { Anton, Inter } from "next/font/google";
 import ServicesList from "./servicesList";
+import Link from "next/link";
 const antonSans = Anton({
   variable: "--font-anton-sans",
   subsets: ["latin"],
@@ -19,7 +20,10 @@ const Services = () => {
       style={{ backgroundImage: 'url("/services bg.svg")' }}
     >
       <div className="flex items-center flex-col text-center md:mb-15 mb-7">
-        <Name name="Our Services" isWhiteVariant src="setw.svg" />
+        <Link href="/our-services">
+          {" "}
+          <Name name="Our Services" isWhiteVariant src="setw.svg" />
+        </Link>
         <h2
           className={`text-[27px] font-bold md:text-7xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
         >

@@ -27,7 +27,9 @@ const WhyUsAbout = () => {
       style={{ backgroundImage: 'url("/why us about.svg")' }}
     >
       <div className="flex items-center flex-col text-center md:mb-15 mb-7">
-        <Name name="Our Services" src="setw.svg" isWhiteVariant />
+        <Link href="/our-services">
+          <Name name="Our Services" src="setw.svg" isWhiteVariant />
+        </Link>
         <h2
           className={`text-[27px] font-bold md:text-7xl mt-6 mb-2 uppercase text-white ${antonSans.variable}`}
         >
@@ -52,7 +54,7 @@ const WhyUsAbout = () => {
       </div>
       <div className="flex items-center justify-center mt-10">
         <Link
-          href={"/"}
+          href={"/contact-us"}
           className={`bg-[#86B93E] text-center text-white  text-xs md:text-base text-nowrap px-10 py-4 rounded-xl ${poppins.variable} font-semibold`}
         >
           Schedule a Free Consultation

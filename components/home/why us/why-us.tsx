@@ -22,7 +22,9 @@ const WhyUs = () => {
   return (
     <section className="mx-auto max-w-7xl py-12 md:py-24 px-5">
       <div className="flex items-center flex-col text-center md:mb-15 mb-7">
-        <Name name="Partner with Synurgenix" src="ste.svg" />
+        <Link href="/contact-us">
+          <Name name="Partner with Synurgenix" src="ste.svg" />
+        </Link>
         <h2
           className={`text-[27px] max-w-3xl font-bold md:text-7xl mt-6 mb-2 uppercase text-[#1A5FC7] ${antonSans.variable}`}
         >
@@ -38,7 +40,7 @@ const WhyUs = () => {
       <CardList />
       <div className="flex items-center justify-center mt-10">
         <Link
-          href={"/"}
+          href={"/contact-us"}
           className={`bg-[#86B93E]  text-center text-white  text-xs md:text-base text-nowrap px-7 md:px-12 py-4 rounded-xl ${poppins.variable} font-semibold`}
         >
           Schedule a Free Consultation

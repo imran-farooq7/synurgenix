@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section
       className="pt-12 bg-no-repeat bg-cover bg-center min-h-[850px] md:min-h-[990px] px-6 md:px-0"
-      style={{ backgroundImage: 'url("/hero.webp")' }}
+      style={{ backgroundImage: 'url("/hero.svg")' }}
     >
       <Navbar />
       <HeroTitle />
