@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav
         className={`mx-auto px-5 xl:px-0 max-w-7xl flex md:items-center justify-between ${interSans.className}  `}
       >
-        <Image src={Logo} alt="logo" />
+        <Image src={Logo} alt="logo" className="mb-2" />
 
         {/* <h1 className="text-3xl font-bold text-white">Logo</h1> */}
         <div className="lg:flex hidden gap-10 text-white text-lg font-medium items-center">
