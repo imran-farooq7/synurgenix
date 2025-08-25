@@ -36,7 +36,7 @@ const Vision = () => {
           of digital transformation
         </p>
       </div>
-      <div className="flex flex-col md:flex-row gap-3">
+      <div className="flex flex-col items-center xl:flex-row gap-3">
         <Image src={V1} alt="our vision" />
         <Image src={V2} alt="our vision" />
       </div>
