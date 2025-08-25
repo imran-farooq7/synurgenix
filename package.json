@@ -13,7 +13,8 @@
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-fast-marquee": "^1.6.5"
+    "react-fast-marquee": "^1.6.5",
+    "react-slot-counter": "^3.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

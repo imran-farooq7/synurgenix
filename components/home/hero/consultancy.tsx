@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 const Consultancy = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-8 mt-14">
+    <div className="flex flex-wrap md:justify-center gap-8 mt-14">
       <div className="bg-[#326ec5] pr-8 flex gap-4 md:gap-8 rounded-2xl">
         <Image
           src="consult.svg"
