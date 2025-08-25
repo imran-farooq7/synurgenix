@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import MobileNavbar from "./nav-mobile";
 import { useState } from "react";
 import HB from "@/public/hamburger menu.svg";
-import Logo from "@/public/Synurgenijjx-final.png";
+import Logo from "@/public/logo.svg";
 
 const interSans = Inter({
   variable: "--font-inter-sans",

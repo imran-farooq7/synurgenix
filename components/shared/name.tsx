@@ -11,7 +11,7 @@ const Name = ({ name, src, isWhiteVariant, isPromotion }: NameProps) => {
   if (isWhiteVariant) {
     return (
       <span
-        className={`border-2 border-[#FFFFFF] px-3 py-2 flex gap-2 items-center w-fit rounded-sm md:text-base text-sm ${interSans.variable} font-semibold text-white`}
+        className={`border-2 border-[#FF8157] px-3 py-2 flex gap-2 items-center w-fit rounded-sm md:text-base text-sm ${interSans.variable} font-semibold text-white`}
       >
         {" "}
         <span>

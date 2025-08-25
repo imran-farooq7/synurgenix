@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329.24 245.08"><defs><style>.b{letter-spacing:-.01em;}.c{letter-spacing:0em;}.d{stroke:#62b622;}.d,.e{fill:none;stroke-miterlimit:10;stroke-width:.5px;}.f{letter-spacing:0em;}.g,.h{fill:#ff8001;}.i{letter-spacing:-.02em;}.j{fill:#80c41c;font-family:MicrosoftYaHeiUI, Microsoft YaHei UI;font-size:9.72px;}.e{stroke:#80c41c;}.h{font-family:CenturyGothic, CenturyGothic;font-size:7px;}</style></defs><text/><text/><text class="j" transform="translate(28 65.38) scale(1.24 1)"><tspan x="0" y="0">SYNU</tspan><tspan class="i" x="26.62" y="0">R</tspan><tspan x="32.82" y="0">GENIX</tspan></text><g><text/><path class="e" d="M11.88,56.14c-4.83,9.91-3.04,17.78,5.31,22.8"/><path class="d" d="M7.36,56.94c5.07,.02,9.19,3.35,9.75,9.45"/><path class="e" d="M.24,65.24c1.55-6.45,8.04-10.42,14.5-8.88"/><path class="e" d="M4.22,58.83c-2.42,13.82,7.73,18.65,17.45,16.3"/><path class="e" d="M1.8,74.42c3.23-10.2,9.51-15.23,19.55-13.86"/><circle class="g" cx="9.63" cy="62.59" r="1.3" transform="translate(-53.48 57.37) rotate(-76.53)"/><path class="e" d="M23.65,70.85c-1.55,6.45-8.04,10.42-14.5,8.88"/><circle class="g" cx="4.48" cy="68.02" r="1.12" transform="translate(-62.71 56.54) rotate(-76.53)"/><path class="d" d="M18.86,68.86c-2.46,6.6-7.55,8.48-11.37,8.2"/><circle class="g" cx="13.21" cy="75.7" r="1.74"/><circle class="g" cx="15.05" cy="60.56" r=".84" transform="translate(-47.35 61.09) rotate(-76.53)"/></g><text class="h" transform="translate(28.75 76.08) scale(1.14 1)"><tspan class="b" x="0" y="0">A</tspan><tspan class="c" x="4.2" y="0">g</tspan><tspan x="8.07" y="0" xml:space="preserve">ile  IT  </tspan><tspan class="f" x="25.96" y="0">S</tspan><tspan x="29.45" y="0">olutions</tspan></text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="70" viewBox="0 0 400 90">
+  <rect width="100%" height="100%" fill="transparent"/>
+  <style>
+    .main { fill: #80c41c; font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: bold;}
+    .tag  { fill: #ff8001; font-family: Arial, Helvetica, sans-serif; font-size: 16px;}
+    .d{stroke:#62b622;}
+    .d,.e{fill:none;stroke-miterlimit:10;stroke-width:.5px;}
+    .e{stroke:#80c41c;}
+    .g{fill:#ff8001;}
+  </style>
+  <!-- SCALE THE WHOLE THING DOWN -->
+  <g transform="scale(0.75)">
+    <g>
+      <!-- Icon -->
+      <g transform="translate(0,-75) scale(1.8)">
+        <path class="e" d="M11.88,46.14c-4.83,9.91-3.04,17.78,5.31,22.8"/>
+        <path class="d" d="M7.36,46.94c5.07,.02,9.19,3.35,9.75,9.45"/>
+        <path class="e" d="M.24,55.24c1.55-6.45,8.04-10.42,14.5-8.88"/>
+        <path class="e" d="M4.22,48.83c-2.42,13.82,7.73,18.65,17.45,16.3"/>
+        <path class="e" d="M1.8,64.42c3.23-10.2,9.51-15.23,19.55-13.86"/>
+        <circle class="g" cx="9.63" cy="52.59" r="1.3"/>
+        <path class="e" d="M23.65,60.85c-1.55,6.45-8.04,10.42-14.5,8.88"/>
+        <circle class="g" cx="4.48" cy="58.02" r="1.12"/>
+        <path class="d" d="M18.86,58.86c-2.46,6.6-7.55,8.48-11.37,8.2"/>
+        <circle class="g" cx="13.21" cy="65.7" r="1.74"/>
+        <circle class="g" cx="15.05" cy="50.56" r=".84"/>
+      </g>
+      <!-- Text -->
+      <g transform="translate(45,28)">
+        <text class="main" x="0" y="0">SYNURGENIX</text>
+        <text class="tag"  x="0" y="20">Agile IT Solutions</text>
+      </g>
+    </g>
+  </g>
+</svg>
