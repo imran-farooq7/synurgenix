@@ -71,7 +71,7 @@ const Consultancy = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-8 lg:gap-4">
         <Image
           src={"Experiences.svg"}
           alt="experiences"

@@ -54,15 +54,17 @@ const MobileNavbar = ({
               </li>
               <li>
                 <Link
-                  href={"/services"}
+                  href={"/our-services"}
                   className={`${
-                    pathName === "/services" ? "bg-[#1A5FC7] text-white" : null
+                    pathName === "/our-services"
+                      ? "bg-[#1A5FC7] text-white"
+                      : null
                   } block pl-7 py-4 `}
                 >
                   Our Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href={"/blog"}
                   className={`${
@@ -71,7 +73,7 @@ const MobileNavbar = ({
                 >
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href={"/coverage"}
