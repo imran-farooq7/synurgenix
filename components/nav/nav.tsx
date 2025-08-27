@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import MobileNavbar from "./nav-mobile";
 import { useState } from "react";
 import HB from "@/public/hamburger menu.svg";
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/logo.jpg";
 
 const interSans = Inter({
   variable: "--font-inter-sans",
@@ -20,9 +20,9 @@ const Navbar = () => {
       <nav
         className={`mx-auto px-5 xl:px-0 max-w-7xl flex md:items-center justify-between ${interSans.className}  `}
       >
-        {/* <Image src={Logo} alt="logo" className="mb-2" /> */}
+        <Image src={Logo} alt="logo" className="mb-2" />
 
-        <h1 className="text-3xl font-bold text-white">Logo</h1>
+        {/* <h1 className="text-3xl font-bold text-white">Logo</h1> */}
         <div className="lg:flex hidden gap-10 text-white text-lg font-medium items-center">
           <Link
             href={"/"}
